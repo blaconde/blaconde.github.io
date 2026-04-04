@@ -31,3 +31,5 @@ Jeśli chcesz się ze mną skontaktować w sprawie współpracy, projektu lub re
 
 ## 📍 Lokalizacja
 Polska, Gdańsk
+
+👉 [Powrót do strony głównej](/)
