@@ -27,7 +27,7 @@ Jeśli chcesz się ze mną skontaktować w sprawie współpracy, projektu lub re
   <img src="assets/github.png" width="20" style="vertical-align: middle;">
 </a>
   GitHub
----
+
 
 ## 📍 Lokalizacja
 Polska, Gdańsk
