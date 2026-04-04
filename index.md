@@ -8,7 +8,7 @@ title: "Angelika Jańczuk – Data / BI / SQL / Python"
 Wybierz, co chcesz zobaczyć:
 
 - [O mnie](/about)
-- [Moja praca i projekty](/projects)
+- [Przykładowy Projekt](/projects)
 - [Umiejętności i technologie](/skills)
 - [Snippety SQL / Python](/snippets)
 - [Kontakt](/contact)
