@@ -15,14 +15,12 @@ Wybierz, co chcesz zobaczyć:
 
 <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 20px;">
 
-  <a href="/about" style="text-decoration: none;">
-   <div style="background:#eef3ff; padding:20px; border-radius:12px; width:200px; transition: transform 0.2s ease;"
-     onmouseover="this.style.transform='scale(1.05)'"
-     onmouseout="this.style.transform='scale(1)'">
-      <h3>👩‍💻 O mnie</h3>
-      <p style="font-size:14px;">Moje doświadczenie i profil</p>
-    </div>
-  </a>
+ <a href="/about" style="text-decoration: none; color: inherit;">
+  <div style="background:#dbeafe; padding:20px; border-radius:16px; width:220px; border:2px solid #93c5fd; box-shadow:0 8px 24px rgba(59,130,246,0.18);">
+    <h3>👩‍💻 O mnie</h3>
+    <p style="font-size:14px;">Moje doświadczenie i profil</p>
+  </div>
+</a>
 
   <a href="/projects" style="text-decoration: none;">
     <div style="background:#eef3ff; padding:20px; border-radius:12px; width:200px; transition:0.2s;"
