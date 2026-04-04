@@ -35,7 +35,7 @@ Jeśli chcesz się ze mną skontaktować w sprawie współpracy, projektu lub re
   GitHub
 
 
-## 📍 Lokalizacja
+## Lokalizacja
 Polska, Gdańsk
 
 👉 [Powrót do strony głównej](/)
