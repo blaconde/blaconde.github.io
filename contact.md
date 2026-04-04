@@ -3,6 +3,12 @@ layout: default
 title: "Kontakt"
 ---
 
+<p style="text-align: right;">
+  <a href="/en">
+    <img src="/assets/united-kingdom.png" alt="English version" width="28">
+  </a>
+</p>
+
 #  Kontakt
 
 Jeśli chcesz się ze mną skontaktować w sprawie współpracy, projektu lub rekrutacji — zapraszam 😊
