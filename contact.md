@@ -16,10 +16,10 @@ Jeśli chcesz się ze mną skontaktować w sprawie współpracy, projektu lub re
 
 ---
 
-<a href="janczuk.angelika@gmail.com">
-  <img src="assets/gmail.png" width="20" style="vertical-align: middle;">
+<a href="mailto:janczuk.angelika1@gmail.com?subject=Kontakt%20">
+  <img src="assets/mail.png" width="20" style="vertical-align: middle;">
 </a>
-  Mail
+ Email
 
 ---
 
