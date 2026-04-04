@@ -3,6 +3,12 @@ layout: default
 title: "Umiejętności i technologie"
 ---
 
+<p style="text-align: right;">
+  <a href="/en">
+    <img src="/assets/united-kingdom.png" alt="English version" width="28">
+  </a>
+</p>
+
 # Umiejętności i technologie
 
 ##  Technologie i narzędzia
