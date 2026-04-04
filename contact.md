@@ -9,7 +9,7 @@ Jeśli chcesz się ze mną skontaktować w sprawie współpracy, projektu lub re
 
 ---
 
-## (linkedin.png) LinkedIn
+## [![LinkedIn](assets/linkedin.png)] LinkedIn
 https://www.linkedin.com/in/angelikajanczuk/
 
 ---
