@@ -1,3 +1,10 @@
+
+<p style="text-align: right;">
+  <a href="/en">
+    <img src="/assets/united-kingdom.png" alt="English version" width="28">
+  </a>
+</p>
+
 ## Walidacja danych adresowych (SQL + Python)
 
 Projekt pokazujący podejście do pracy z danymi historycznymi i ich walidacji.
