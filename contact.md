@@ -16,14 +16,17 @@ Jeśli chcesz się ze mną skontaktować w sprawie współpracy, projektu lub re
 
 ---
 
-## 📧 Email
-janczuk.angelika1@gmail.com
+<a href="janczuk.angelika@gmail.com">
+  <img src="assets/gmail.png" width="20" style="vertical-align: middle;">
+</a>
+  Mail
 
 ---
 
-## 💻 GitHub
-https://github.com/blaconde
-
+<a href="https://github.com/blaconde">
+  <img src="assets/github.png" width="20" style="vertical-align: middle;">
+</a>
+  GitHub
 ---
 
 ## 📍 Lokalizacja
