@@ -18,3 +18,5 @@ Choose what you'd like to explore:
 - [Skills & Technologies](/en/skills)
 - [SQL / Python Snippets](/en/snippets)
 - [Contact](/en/contact)
+
+- - [Test](/en/test)
