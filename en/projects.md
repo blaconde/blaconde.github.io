@@ -4,7 +4,7 @@ title: "My work and projects"
 ---
 
 <p style="text-align: right;">
-  <a href="/">
+  <a href="/projects">
     <img src="/assets/poland.png" alt="Polski" width="24">
   </a>
 </p>
