@@ -4,7 +4,7 @@ title: "Kontakt"
 ---
 
 <p style="text-align: right;">
-  <a href="/en">
+  <a href="/en/contact">
     <img src="/assets/united-kingdom.png" alt="English version" width="28">
   </a>
 </p>
