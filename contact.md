@@ -9,7 +9,7 @@ Jeśli chcesz się ze mną skontaktować w sprawie współpracy, projektu lub re
 
 ---
 
-<a href="https://www.linkedin.com/in/TWOJ_LINK">
+<a href="https://www.linkedin.com/in/angelikajanczuk/">
   <img src="assets/linkedin.png" width="20" style="vertical-align: middle;">
 </a>
  LinkedIn
