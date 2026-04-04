@@ -5,7 +5,7 @@ title: "Angelika Jańczuk – Data / BI / SQL / Python"
 
 <p style="text-align: right;">
   <a href="/">
-    <img src="/assets/pl.png" alt="Polski" width="24">
+    <img src="/assets/poland.png" alt="Polski" width="24">
   </a>
 </p>
 
