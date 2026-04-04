@@ -13,7 +13,7 @@ title: "My work and projects"
 
 ## Dashboard: Health & Lifestyle
 
-![Demo](/assets/pbi_health.gif)
+![Demo](/pbi_health.gif)
 
 Power BI dashboard analyzing relationships between:
 - physical activity
