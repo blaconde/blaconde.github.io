@@ -15,3 +15,5 @@ Projekt pokazujący podejście do pracy z danymi historycznymi i ich walidacji.
 
 ### Kod:
  [Zobacz SQL / Python](https://github.com/blaconde/data-analysis-snippets)
+
+ 👉 [Powrót do strony głównej](/)
