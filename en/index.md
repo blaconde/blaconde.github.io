@@ -19,4 +19,4 @@ Choose what you'd like to explore:
 - [SQL / Python Snippets](/en/snippets)
 - [Contact](/en/contact)
 
-- - [Test](/en/test)
+ [Test](/en/test)
