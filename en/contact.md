@@ -1,21 +1,19 @@
 ---
----
 layout: default
-title: "Kontakt"
+title: "Contact"
 ---
 
 <p style="text-align: right;">
   <a href="/contact">
-    <img src="/assets/poland.png" alt="Polish" width="28">
+    <img src="/assets/poland.png" alt="Polski" width="28">
   </a>
 </p>
 
-#  Kontakt
+# Contact
 
-Jeśli chcesz się ze mną skontaktować w sprawie współpracy, projektu lub rekrutacji — zapraszam 😊
+If you'd like to get in touch regarding collaboration, a project, or a job opportunity — feel free to reach out 😊
 
 ---
-
 <a href="https://www.linkedin.com/in/angelikajanczuk/">
   <img src="/assets/linkedin.png" width="20" style="vertical-align: middle;">
 </a>
@@ -36,7 +34,7 @@ Jeśli chcesz się ze mną skontaktować w sprawie współpracy, projektu lub re
   GitHub
 
 
-## Lokalizacja
-Polska, Gdańsk
+## Location
+Poland, Gdańsk
 
-👉 [Powrót do strony głównej](/)
+👉 [Back to main page](/en)
