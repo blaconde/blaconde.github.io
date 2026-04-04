@@ -24,4 +24,6 @@ Dashboard Power BI analizujący zależności między:
 ### Technologie:
 - Power BI  
 - DAX  
-- Power Query  
+- Power Query
+
+👉 [Powrót do strony głównej](/)
