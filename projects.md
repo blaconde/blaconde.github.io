@@ -3,7 +3,7 @@ layout: default
 title: "Moja praca i projekty"
 ---
 
-# Moja praca i projekty
+# Przykładowy projekt - Power Bi
 
 ## Dashboard: Health & Lifestyle
 
