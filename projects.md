@@ -3,6 +3,12 @@ layout: default
 title: "Moja praca i projekty"
 ---
 
+<p style="text-align: right;">
+  <a href="/en">
+    <img src="/assets/united-kingdom.png" alt="English version" width="28">
+  </a>
+</p>
+
 # Przykładowy projekt - Power Bi
 
 ## Dashboard: Health & Lifestyle
