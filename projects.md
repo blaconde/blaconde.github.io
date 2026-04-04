@@ -4,7 +4,7 @@ title: "Moja praca i projekty"
 ---
 
 <p style="text-align: right;">
-  <a href="/en">
+  <a href="/en/projects">
     <img src="/assets/united-kingdom.png" alt="English version" width="28">
   </a>
 </p>
