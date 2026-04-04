@@ -16,12 +16,12 @@ Dashboard Power BI analizujący zależności między:
 - nawodnieniem
 - nastrojem
 
-### 🧠 Wnioski:
+### Wnioski:
 - krótszy sen = wyższy poziom stresu  
 - intensywność treningu wpływa na stres i aktywność  
 - nawodnienie koreluje z nastrojem  
 
-### 🛠 Technologie:
+### Technologie:
 - Power BI  
 - DAX  
 - Power Query  
