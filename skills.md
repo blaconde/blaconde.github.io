@@ -29,7 +29,7 @@ title: "Umiejętności i technologie"
 ##  Obszary, w których działam
 
 - Data Quality & Data Governance  
-- Mapowanie procesów (journey klientów, voicebot, billing) 
+- Mapowanie procesów (mapa życia klientów, voicebot, billing) 
 - Łączenie biznesu i IT  
 - Dokumentacja procesów  
 - Projektowanie logik danych i definicji  
