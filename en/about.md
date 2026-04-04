@@ -4,7 +4,7 @@ title: "About me"
 ---
 
 <p style="text-align: right;">
-  <a href="/">
+  <a href="/about">
     <img src="/assets/poland.png" alt="Polski" width="24">
   </a>
 </p>
