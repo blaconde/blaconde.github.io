@@ -4,7 +4,7 @@ title: "Umiejętności i technologie"
 ---
 
 <p style="text-align: right;">
-  <a href="/en">
+  <a href="/en/snippets">
     <img src="/assets/united-kingdom.png" alt="English version" width="28">
   </a>
 </p>
