@@ -1,24 +1,24 @@
 ---
 layout: default
-title: "About me"
+title: "O mnie"
 ---
 
 <p style="text-align: right;">
-  <a href="/">
-    <img src="/assets/poland.png" alt="Polski" width="24">
+  <a href="/en">
+    <img src="/assets/united-kingdom.png" alt="English" width="24">
   </a>
 </p>
 
-# About me
+# O mnie
 
-Data analyst with 6 years of experience working with Power BI, SQL, Python and relational databases.  
-I combine technical skills with business understanding to design and automate end-to-end reporting solutions.  
-Currently, I’m focused on growing towards data engineering and analytics supporting AI-driven solutions.
+Analityczka danych z 6-letnim doświadczeniem w pracy z Power BI, SQL, Pythonem i relacyjnymi bazami danych.  
+Łączę umiejętności techniczne ze zrozumieniem biznesu, tworząc i automatyzując raporty end-to-end.  
+Obecnie rozwijam się w kierunku inżynierii danych oraz analityki wspierającej rozwiązania oparte na AI.
 
-My strengths:
-- quickly adapting to new technologies,
-- analyzing data and bringing structure to complex problems,
-- building processes, logic and data definitions,
-- bridging the gap between technical and business perspectives.
+Moje mocne strony:
+- szybkie uczenie się nowych technologii,
+- analiza danych i porządkowanie złożonych problemów,
+- budowanie procesów, logiki i definicji danych,
+- łączenie perspektywy technicznej i biznesowej.
 
-👉 [Back to main page](/en)
+👉 [Powrót do strony głównej](/)
