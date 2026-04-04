@@ -4,7 +4,7 @@ title: "O mnie"
 ---
 
 <p style="text-align: right;">
-  <a href="/en">
+  <a href="/en/about">
     <img src="/assets/united-kingdom.png" alt="English" width="24">
   </a>
 </p>
