@@ -15,12 +15,12 @@ Wybierz, co chcesz zobaczyć:
 
 <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 20px;">
 
- <a href="/about" style="text-decoration: none; color: inherit;">
-  <div style="background:#dbeafe; padding:20px; border-radius:16px; width:220px; border:2px solid #93c5fd; box-shadow:0 8px 24px rgba(59,130,246,0.18);">
-    <h3>👩‍💻 O mnie</h3>
-    <p style="font-size:14px;">Moje doświadczenie i profil</p>
-  </div>
-</a>
+  <a href="/about" style="text-decoration: none; color: inherit;">
+    <div style="background:linear-gradient(135deg,#ffffff,#c4bfc9); padding:20px; border-radius:16px; width:220px; border:1px solid #c4bfc9; box-shadow:0 8px 20px rgba(79,104,125,0.15);">
+      <h3 style="color:#4f687d;">👩‍💻 O mnie</h3>
+      <p style="font-size:14px;">Moje doświadczenie i profil</p>
+    </div>
+  </a>
 
   <a href="/projects" style="text-decoration: none;">
     <div style="background:#dbeafe; padding:20px; border-radius:16px; width:220px; border:2px solid #93c5fd; box-shadow:0 8px 24px rgba(59,130,246,0.18);">
