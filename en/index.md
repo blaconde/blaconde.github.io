@@ -4,17 +4,17 @@ title: "Angelika Jańczuk – Data / BI / SQL / Python"
 ---
 
 <p style="text-align: right;">
-  <a href="/en">
-    <img src="/assets/united-kingdom.png" alt="English version" width="28">
+  <a href="/">
+    <img src="/assets/pl.png" alt="Polski" width="24">
   </a>
 </p>
 
-# Cześć, tu Angelika 👋
+# Hi, I'm Angelika 👋
 
-Wybierz, co chcesz zobaczyć:
+Choose what you'd like to explore:
 
-- [O mnie](/about)
-- [Przykładowy Projekt](/projects)
-- [Umiejętności i technologie](/skills)
-- [Snippety SQL / Python](/snippets)
-- [Kontakt](/contact)
+- [About me](/en/about)
+- [Sample Project](/en/projects)
+- [Skills & Technologies](/en/skills)
+- [SQL / Python Snippets](/en/snippets)
+- [Contact](/en/contact)
