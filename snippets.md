@@ -1,3 +1,7 @@
+---
+layout: default
+title: "Umiejętności i technologie"
+---
 
 <p style="text-align: right;">
   <a href="/en">
