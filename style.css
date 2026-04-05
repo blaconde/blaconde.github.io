@@ -263,3 +263,25 @@ body {
   font-size: 15px;
   line-height: 1.4;
 }
+
+
+.top-right {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+
+.top-right img {
+  width: 28px;
+  height: auto;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.top-right img:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  position: relative;
+}
