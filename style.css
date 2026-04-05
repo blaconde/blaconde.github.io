@@ -147,15 +147,7 @@ body {
   margin-bottom: 20px;
 }
 
-.section-header {
-  width: 100%;
-  background: #dcb4b7; /* kolor naglowka */
-  padding: 20px 30px;
-  margin-bottom: 40px;
-  margin-left: -70px;
-  margin-right: -70px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-}
+
 
 .section .section-header h2 {
   margin: 0;
@@ -305,5 +297,13 @@ body {
   position: relative;
 }
 
-
+.section-header {
+  display: block;
+  background: red;
+  color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  text-transform: uppercase;
+}
 
