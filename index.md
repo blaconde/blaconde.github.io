@@ -53,4 +53,4 @@ Wybierz, co chcesz zobaczyć:
 
 </div>
 
-[TEST](/)
+[TEST](/TEST)
