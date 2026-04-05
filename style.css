@@ -140,11 +140,9 @@ body {
 
 .section {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding-top: 40px;
-  scroll-margin-top: 20px;
+  margin-top: 0;
+  padding-top: 0;
+  scroll-margin-top: 0;
 }
 
 .section h2 {
@@ -312,9 +310,9 @@ body {
   color: white;
   border-radius: 0 0 12px 12px;
 
-  padding: 28px 70px; /*content ma padding 70px wiec sprawdzaj czy to jest ok*/
+  padding: 28px 70px; /*content ma padding 70px wiec trzeba sprawdzic czy to jest ok*/
   margin-bottom: 50px;
-  margin-top: 160px;
+  margin-top: 0;
 
   font-size: 34px;
   font-weight: 300;
