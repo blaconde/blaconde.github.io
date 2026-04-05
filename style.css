@@ -282,9 +282,10 @@ body {
 
 
 .top-right {
-  position: absolute;
+  position: fixed;
   top: 30px;
   right: 40px;
+  z-index: 999;
 }
 
 .top-right img {
