@@ -107,9 +107,9 @@ body {
 
 .hero {
   min-height: 100vh; /* Ile chce aby bylo widac na stronie*/
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-start;**/
   padding-top: 40px;
 }
 
@@ -143,6 +143,8 @@ body {
   margin-top: 0;
   padding-top: 0;
   scroll-margin-top: 0;
+  display: block;
+  background: yellow !important;
 }
 
 .section h2 {
