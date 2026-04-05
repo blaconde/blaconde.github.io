@@ -298,12 +298,22 @@ body {
 }
 
 .section-header {
-  display: block;
-  background: red;
+  width: calc(100% + 140px);
+  margin-left: -70px;
+  margin-right: -70px;
+
+  background: #9d695b; /* Twój kolor */
   color: white;
-  padding: 20px;
-  margin-bottom: 30px;
-  font-size: 36px;
+  border-radius: 0 0 12px 12px;
+
+  padding: 28px 70px;
+  margin-bottom: 50px;
+
+  font-size: 34px;
+  font-weight: 300;
+  letter-spacing: 3px;
   text-transform: uppercase;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
