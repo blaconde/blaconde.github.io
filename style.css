@@ -106,7 +106,7 @@ body {
 }
 
 .hero {
-  min-height: 90vh;
+  min-height: 100vh; /* Ile chce aby bylo widac na stronie*/
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -139,7 +139,12 @@ body {
 }
 
 .section {
-  margin-top: 140px;
+  min-height: 100vh;
+  margin-top: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .section h2 {
@@ -302,12 +307,13 @@ body {
   margin-left: -70px;
   margin-right: -70px;
 
-  background: #9d695b; /* Twój kolor */
+  background: linear-gradient(90deg, #9d695b, #b07c6f); /* Mój kolor, gradient */
   color: white;
   border-radius: 0 0 12px 12px;
 
-  padding: 28px 70px;
+  padding: 28px 70px; /*content ma padding 70px wiec sprawdzaj czy to jest ok*/
   margin-bottom: 50px;
+  margin-top: 160px;
 
   font-size: 34px;
   font-weight: 300;
