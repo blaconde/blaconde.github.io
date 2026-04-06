@@ -326,7 +326,7 @@ body {
   #projects,
   #experience,
   #contact {
-  scroll-margin-top: 40px;
+  
 }
 
 .project-card {
@@ -611,4 +611,46 @@ body {
 .experience-card li {
   margin-bottom: 8px;
   line-height: 1.5;
+}
+/*IKONKI W KONTAKTACH*/
+.contact-container {
+  text-align: center;
+}
+
+.contact-intro {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: var(--text-light);
+}
+
+/* tu ogarniam rozmiar */
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* zmieniam tylko to aby miec wieksze ikonki */
+.contact-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s ease;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.contact-icon img {
+  width: 28px;
+  height: 28px;
+}
+
+
+.contact-icon:hover {
+  transform: translateY(-4px);
+  background: var(--accent);
+  filter: brightness(0) invert(1);
 }
