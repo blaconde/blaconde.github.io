@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Quality Controls | Angelika Jańczuk</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="project-page">
+    <div class="project-topbar">
+      <a href="TEST.html#projects" class="back-link">← Back to projects</a>
+    </div>
+
+    <main class="project-container">
+      <section class="project-hero">
+        <p class="project-eyebrow">Project Case</p>
+        <h1>Data Quality Controls</h1>
+        <p class="project-lead">
+          Examples of data validation logic implemented in Python and SQL to detect
+          inconsistencies, incorrect formats, and data quality issues.
+        </p>
+
+        <div class="project-stack">
+          <span>Python</span>
+          <span>SQL</span>
+          <span>Data Quality</span>
+          <span>Validation Logic</span>
+        </div>
+      </section>
+
+      <section class="project-content-grid">
+
+        <!-- INTRO -->
+        <div class="project-box">
+          <h2>Project Overview</h2>
+          <p>
+            This section presents example validation rules used to detect data quality issues.
+            The focus is on identifying incorrect formats, missing values, and inconsistencies
+            that may impact analytical accuracy and business processes.
+          </p>
+          <p>
+            The examples below illustrate a simplified version of logic typically used
+            in real-world data quality monitoring.
+          </p>
+        </div>
+
+        <!-- EMAIL VALIDATION -->
+        <div class="project-box">
+        <h2>Email Validation</h2>
+
+        <div class="code-header">Python</div>
+        <pre class="code-block"><code>
+import re
+
+def validate_email(email):
+    pattern = r"^[\w\.-]+@[\w\.-]+\.\w+$"
+    return isinstance(email, str) and re.match(pattern, email) is not None
+        </code></pre>
+
+        <p>
+            This validation checks whether the email follows a basic structural pattern.
+            It ensures the value contains a local part, a domain, and a valid format
+            using a regular expression.
+        </p>
+        </div>
+
+        <!-- PHONE VALIDATION -->
+        <div class="project-box">
+          <h2>Phone Number Validation</h2>
+
+          <div class="code-header">Python</div>
+          <pre class="code-block"><code>
+def validate_phone(phone):
+    return phone.isdigit() and len(phone) in [9, 11]
+          </code></pre>
+
+          <p>
+            This rule verifies whether a phone number contains only digits and matches
+            expected lengths. It helps detect incorrectly formatted or incomplete values.
+          </p>
+        </div>
+
+        <!-- NULL CHECK -->
+        <div class="project-box">
+          <h2>Missing Value Check</h2>
+
+          <div class="code-header">Python</div>
+          <pre class="code-block"><code>
+def is_missing(value):
+    return value is None or value == ""
+          </code></pre>
+
+          <p>
+            This validation identifies missing values in datasets. Detecting null or empty
+            fields is essential for ensuring data completeness and reliability.
+          </p>
+        </div>
+
+        <!-- DUPLICATE CHECK -->
+        <div class="project-box">
+          <h2>Duplicate Detection (SQL)</h2>
+
+          <div class="code-header">SQL</div>
+          <pre class="code-block"><code>
+SELECT email, COUNT(*)
+FROM customers
+GROUP BY email
+HAVING COUNT(*) > 1;
+          </code></pre>
+
+          <p>
+            This query identifies duplicate records based on email. Duplicate detection is
+            critical for maintaining clean datasets and avoiding incorrect analysis results.
+          </p>
+        </div>
+
+        <!-- CONFIDENTIALITY -->
+        <div class="project-box">
+          <h2>Confidentiality Note</h2>
+          <p>
+            The examples presented here are simplified and based on generic logic.
+            In real-world scenarios, validation rules are adapted to specific systems,
+            business processes, and data structures.
+          </p>
+          <p>
+            More advanced validation logic and real use cases can be demonstrated
+            using anonymized or synthetic datasets in future updates.
+          </p>
+        </div>
+
+      </section>
+    </main>
+  </div>
+</body>
+</html>
