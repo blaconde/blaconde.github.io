@@ -325,9 +325,7 @@ body {
   #skills,
   #projects,
   #experience,
-  #contact {
-  
-}
+  #contact 
 
 .project-card {
   display: block;
@@ -653,4 +651,102 @@ body {
   transform: translateY(-4px);
   background: var(--accent);
   filter: brightness(0) invert(1);
+}
+
+/*STYL DO CERTYFIKATOW*/
+.certificates-wrapper {
+  width: 100%;
+}
+
+.cert-summary-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  width: 100%;
+}
+
+.cert-summary-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  padding: 24px 28px;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cert-summary-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.cert-summary-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.cert-summary-header h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.cert-summary-icon {
+  width: 52px;
+  height: 52px;
+  min-width: 52px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cert-summary-icon img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.cert-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px 20px;
+}
+
+.cert-item {
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cert-item strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.cert-item span {
+  display: block;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--accent-light);
+}
+
+/*W O MNIE TEN KURSOR*/ 
+.cursor {
+  display: inline-block;
+  margin-left: 4px;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  50.01%, 100% { opacity: 0; }
 }

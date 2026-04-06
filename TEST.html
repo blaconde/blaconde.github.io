@@ -25,6 +25,7 @@
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
+        <a href="#certificates">Certificates</a>
       </nav>
     </aside>
 
@@ -36,7 +37,9 @@
       
       <section class="hero" id="about">
         <h1>Hi, I'm <span>Angelika Jańczuk</span></h1>
-        <p class="subtitle">Data Analyst / Power BI / SQL / Python</p>
+        <p class="subtitle">
+    <span id="typing-text"></span><span class="cursor">|</span>
+        </p>
         <p>
           I build reports, analyze data, and turn business needs into practical data solutions.
           I work across SQL, Power BI, Python, and process understanding to create useful and clear analytics.
@@ -325,8 +328,124 @@
   </div>
       </section>
 
+      <section class="section" id="certificates">
+  <div class="section-header">
+    <h2>Certificates</h2>
+  </div>
+
+  <div class="cert-summary-grid">
+
+<div class="cert-summary-card">
+  <div class="cert-summary-header">
+    <div class="cert-summary-icon">
+      <img src="assets/cert-bi.png" alt="BI icon">
+    </div>
+    <h3>BI & Analytics</h3>
+  </div>
+
+  <div class="cert-items">
+    <div class="cert-item">
+      <strong>Data Analysis with Databricks</strong>
+      <span>Databricks Academy · 2025</span>
+    </div>
+
+    <div class="cert-item">
+      <strong>Microsoft Power BI</strong>
+      <span>Altkom Akademia · 2022</span>
+    </div>
+
+    <div class="cert-item">
+      <strong>Advanced DAX</strong>
+      <span>Altkom Akademia · 2022</span>
+    </div>
+
+    <div class="cert-item">
+      <strong>Power BI</strong>
+      <span>Sii Poland · 2023</span>
+    </div>
+  </div>
+</div>
+
+<div class="cert-summary-card">
+  <div class="cert-summary-header">
+    <div class="cert-summary-icon">
+      <img src="assets/cert-sql.png" alt="BI icon">
+    </div>
+    <h3>SQL & Data</h3>
+  </div>
+
+  <div class="cert-items">
+    <div class="cert-item">
+      <strong>SQL for Data Science</strong>
+      <span>University of California · Davis · 2025</span>
+    </div>
+
+    <div class="cert-item">
+      <strong>SQL Problem Solving</strong>
+      <span>University of California · Davis · 2025</span>
+    </div>
+
+    <div class="cert-item">
+      <strong>SQL Intermediate</strong>
+      <span>SoloLearn · 2025</span>
+    </div>
+
+    <div class="cert-item">
+      <strong>Introduction to SQL</strong>
+      <span>SoloLearn · 2025</span>
+    </div>
+  </div>
+</div>
+
+<div class="cert-summary-card">
+  <div class="cert-summary-header">
+    <div class="cert-summary-icon">
+      <img src="assets/cert-ai.png" alt="BI icon">
+    </div>
+    <h3>AI & Learning</h3>
+  </div>
+
+   <div class="cert-items">
+    <div class="cert-item">
+      <strong>Introduction to LLMs</strong>
+      <span>SoloLearn · 2025</span>
+    </div>
+
+  <div class="cert-items">
+    <div class="cert-item">
+      <strong>AI in Business Development</strong>
+      <span>Google · 2025</span>
+    </div>
+
+  </div>
+</div>
+
+  </div>
+</section>
+
     </main>
 
   </div>
+...
+</section>
+
+<script>
+  window.onload = function () {
+    const text = "Data Analyst / Power BI / SQL / Python";
+    const typingTarget = document.getElementById("typing-text");
+    let index = 0;
+
+    function typeText() {
+      if (index < text.length) {
+        typingTarget.textContent += text.charAt(index);
+        index++;
+        setTimeout(typeText, 70);
+      }
+    }
+
+    typeText();
+  };
+</script>
+
 </body>
 </html>
