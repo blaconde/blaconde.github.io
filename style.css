@@ -262,11 +262,11 @@ body {
   border-radius: 14px;
   transition: 0.2s ease;
 }
-
+/*
 .skill-item:hover {
   background: rgba(255, 255, 255, 0.06);
   transform: translateY(-3px);
-}
+}*/
 
 .skill-icon {
   font-size: 38px;
