@@ -524,3 +524,91 @@ body {
   margin-bottom: 6px;
   font-family: monospace;
 }
+/*stryl do doswiadczenia, timeline*/
+.experience-timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding-left: 34px;
+}
+
+.experience-timeline::before {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.timeline-dot.current {
+  width: 14px;
+  height: 14px;
+  background: #ffffff;
+  box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.15);
+}
+
+.experience-item {
+  position: relative;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -23px;
+  top: 28px;
+  width: 12px;
+  height: 12px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px rgba(157, 105, 91, 0.15);
+}
+
+.experience-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  padding: 24px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.experience-header h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.experience-header span {
+  font-size: 14px;
+  color: var(--accent-light);
+}
+
+.experience-intro {
+  margin: 12px 0 16px;
+  line-height: 1.6;
+}
+
+.experience-card ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.experience-card li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
