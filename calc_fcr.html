@@ -32,6 +32,30 @@
       color: #f5f3f1;
     }
 
+    .project-page {
+      min-height: 100vh;
+      background: #2c3e57;
+    }
+
+    .project-topbar {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 24px 20px 0;
+    }
+
+    .back-link {
+      display: inline-block;
+      color: #d6cfc9;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+
+    .back-link:hover {
+      color: #efe4df;
+    }
+
     .container {
       max-width: 980px;
       margin: 0 auto;
@@ -165,23 +189,23 @@
 
     <div class="grid">
       <section class="card">
-        <h2 style="color:#2f2a28;">Input data</h2 style="color:#2f2a28;">
+        <h2 style="color:#2f2a28;">Input data</h2>
 
         <div class="field">
-          <label style="color:#2f2a28;">Time window</label style="color:#2f2a28;">
+          <label style="color:#2f2a28;">Time window</label>
           <div>
-            <label style="color:#2f2a28;"><input type="radio" name="rule" value="28" checked> ±28 days</label style="color:#2f2a28;">
-            <label style="color:#2f2a28;"><input type="radio" name="rule" value="90"> ±90 days</label style="color:#2f2a28;">
+            <label style="color:#2f2a28;"><input type="radio" name="rule" value="28" checked> ±28 days</label>
+            <label style="color:#2f2a28;"><input type="radio" name="rule" value="90"> ±90 days</label>
           </div>
         </div>
 
         <div class="row">
           <div class="field">
-            <label style="color:#2f2a28;">First contact date</label style="color:#2f2a28;">
+            <label style="color:#2f2a28;">First contact date</label>
             <input type="date" id="firstDate">
           </div>
           <div class="field">
-            <label style="color:#2f2a28;">First contact topic</label style="color:#2f2a28;">
+            <label style="color:#2f2a28;">First contact topic</label>
             <select id="firstTopic">
               <option value="">Select topic</option>
               <option>Billing</option>
@@ -196,11 +220,11 @@
 
         <div class="row">
           <div class="field">
-            <label style="color:#2f2a28;">Previous contact date</label style="color:#2f2a28;">
+            <label style="color:#2f2a28;">Previous contact date</label>
             <input type="date" id="prevDate">
           </div>
           <div class="field">
-            <label style="color:#2f2a28;">Previous contact topic</label style="color:#2f2a28;">
+            <label style="color:#2f2a28;">Previous contact topic</label>
             <select id="prevTopic">
               <option value="">None</option>
               <option>Billing</option>
@@ -215,11 +239,11 @@
 
         <div class="row">
           <div class="field">
-            <label style="color:#2f2a28;">Next contact date</label style="color:#2f2a28;">
+            <label style="color:#2f2a28;">Next contact date</label>
             <input type="date" id="nextDate">
           </div>
           <div class="field">
-            <label style="color:#2f2a28;">Next contact topic</label style="color:#2f2a28;">
+            <label style="color:#2f2a28;">Next contact topic</label>
             <select id="nextTopic">
               <option value="">None</option>
               <option>Billing</option>
@@ -240,7 +264,7 @@
       </section>
 
       <aside class="card" id="resultPanel">
-        <h2 style="color:#2f2a28;">Result</h2 style="color:#2f2a28;">
+        <h2 style="color:#2f2a28;">Result</h2>
         <p>Fill the form and click Calculate.</p>
       </aside>
     </div>
@@ -265,7 +289,7 @@ function calculateFCR(){
   const pt=prevTopic.value
   const nt=nextTopic.value
 
-  if(!f||!ft){resultPanel.innerHTML='<h2 style="color:#2f2a28;">Result</h2 style="color:#2f2a28;"><p>Please fill required fields.</p>';return}
+  if(!f||!ft){resultPanel.innerHTML='<h2 style="color:#2f2a28;">Result</h2><p>Please fill required fields.</p>';return}
 
   const prevSame=p && diff(p,f)<=rule && ft===pt
   const nextSame=n && diff(f,n)<=rule && ft===nt
@@ -299,7 +323,7 @@ function calculateFCR(){
   ]
 
   resultPanel.innerHTML=`
-    <h2 style="color:#2f2a28;">Result</h2 style="color:#2f2a28;">
+    <h2 style="color:#2f2a28;">Result</h2>
     <div class="status ${cls}">${title}</div>
     <div class="result-box">
       <p><strong>First Contact Resolution value:</strong> ${score}</p>
@@ -339,7 +363,7 @@ function fillExample(){
 function resetForm(){
   firstDate.value='';prevDate.value='';nextDate.value=''
   firstTopic.value='';prevTopic.value='';nextTopic.value=''
-  resultPanel.innerHTML='<h2 style="color:#2f2a28;">Result</h2 style="color:#2f2a28;"><p>Fill the form and click Calculate.</p>'
+  resultPanel.innerHTML='<h2 style="color:#2f2a28;">Result</h2><p>Fill the form and click Calculate.</p>'
 }
 </script>
   </div>
